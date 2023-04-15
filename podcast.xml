@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Tereza Bohumská</title>
+    <link>http://tereza.lovestoblog.com/</link>
+    <description>Maturitní otázky - čtená verze</description>
+    <language>cs</language>
+    <atom:link href="http://tereza.lovestoblog.com/podcast.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Tereza Bohumská</itunes:author>
+    <itunes:summary>Maturitní otázky - čtená verze</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Tereza Bohumská</itunes:name>
+      <itunes:email>tereza.bohumska@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://tereza.lovestoblog.com/podcast.png"/>
+    <itunes:category text="Science">
+      <itunes:category text="Natural Sciences"/>
+    </itunes:category>    
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 2. Nebuněčné organismy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_2.m4a" length="12645403" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_2.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:12:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 3. Prokaryotická buňka</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Prokaryotická buňka</description>
+      <enclosure url="http://tereza.lovestoblog.com/audio/biologie/bio_3.m4a" length="13020982" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_3.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
+      <itunes:duration>00:13:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <!-- <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 2. Nebuněčné organismy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_2.m4a" length="12645403" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:12:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 2. Nebuněčné organismy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_2.m4a" length="12645403" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:12:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 2. Nebuněčné organismy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_2.m4a" length="12645403" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:12:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item> -->
+    <itunes:explicit>no</itunes:explicit>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Podcasts</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>My Podcasts</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="podcast-list"></div>
+
+   
+    
+    <audio id="audio-player" src="audio/biologie/bio_1.m4a"></audio>
+<div class="audio-controls">
+  <div class="play-pause-button">
+    <i class="fas fa-play"></i>
+    <i class="fas fa-pause"></i>
+  </div>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+  <div class="time-display">
+    <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+  </div>
+  <div class="volume-controls">
+    <div class="mute-button">
+      <i class="fas fa-volume-up"></i>
+      <i class="fas fa-volume-mute"></i>
+    </div>
+    <div class="volume-bar">
+      <div class="volume-level"></div>
+    </div>
+  </div>
+</div>
+  </main>
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
