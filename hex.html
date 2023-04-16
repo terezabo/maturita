@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(123, 158, 158);
+}
+
+
+#hexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+.hex {
+  position: relative;
+  visibility:hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  transition: all 0.5s;
+  backface-visibility: hidden;
+  will-change: transform;
+  transition: all 0.5s;
+}
+.hex::after{
+  content:'';
+  display:block;
+  padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+}
+.hexIn{
+  position: absolute;
+  width:96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin: 2%;
+  overflow: hidden;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+          transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+    transition: all 0.5s;
+}
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+.hexLink {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+        -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+            transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+
+
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width:1201px) { /* <- 5-4  hexagons per row */
+  #hexGrid{
+    padding-bottom: 5%
+  }
+  .hex {
+    width: 25%; /* = 100 / 5 */
+  }
+  .hex:nth-child(6n+4){ /* first hexagon of even rows */
+    margin-left: 12.5%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+  #hexGrid{
+    padding-bottom: 5.5%;
+    font-size: 13px;
+  }
+  .hex {
+    width: 25%; /* = 100 / 4 */
+  }
+  .hex:nth-child(7n+5){ /* first hexagon of even rows */
+    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 7.4%;
+    font-size: 14px;
+  }
+  .hex {
+    width: 33.333%; /* = 100 / 3 */
+  }
+  .hex:nth-child(5n+4){ /* first hexagon of even rows */
+    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+  #hexGrid{
+    padding-bottom: 11.2%;
+    font-size: 12px;
+  }
+  .hex {
+    width: 50%; /* = 100 / 3 */
+  }
+  .hex:nth-child(3n+3){ /* first hexagon of even rows */
+    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 8px;
+    }
+  
+
+  
+ 
+}
+
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <ul id="hexGrid">
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div>
+          </a>
+        </div>
+      </li>
+        
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1425668273332-3a46ab26b161?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=d453ab3dec298c43415526458b360fa6);'></div>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1425668273332-3a46ab26b161?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=d453ab3dec298c43415526458b360fa6);'></div>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+         <div class='img' style='background-image: url(https://images.unsplash.com/uploads/14122811862445bc266cf/931448f2?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1417026846249-f31f7e43fc35?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/uploads/14122811862445bc266cf/931448f2?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1423145369430-a9ea0de096cd?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      
+     <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1425668273332-3a46ab26b161?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=d453ab3dec298c43415526458b360fa6);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+          <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+                <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=49dab7a5e4b2e28b5707bc2db974c94b);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1417026846249-f31f7e43fc35?crop=entropy&amp;fit=crop&amp;fm=jpg&amp;h=1375&amp;ixjsv=2.1.0&amp;ixlib=rb-0.3.5&amp;q=80&amp;w=1725);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+    </ul>
+      </div>
+  </body>
+</html>

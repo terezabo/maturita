@@ -1,44 +1,247 @@
-/* Reset styles */
+/* Global styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Global styles */
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Header styles */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
+  background-color: #1d4e89;
+  color: white;
+  height: 100px;
+  padding: 20px;
+  position: relative;
 }
 
-/* Navigation styles */
-nav {
-  background-color: #555;
-  color: #fff;
-  padding: 0.5rem;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
 }
 
 nav ul {
   display: flex;
-  justify-content: center;
   list-style: none;
 }
 
-nav li {
-  margin: 0 1rem;
+nav ul li {
+  margin-left: 20px;
 }
 
-nav a {
-  color: #fff;
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.2em;
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1d4e89;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#hexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+.hex {
+  position: relative;
+  /*   visibility:hidden;
+   */
+  outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  transition: all 0.5s;
+  backface-visibility: hidden;
+  will-change: transform;
+  transition: all 0.5s;
+}
+
+.hex::after {
+  content: "";
+  display: block;
+  padding-bottom: 86.602%; /* =  100 / tan(60) * 1.5 */
+}
+
+.hexIn {
+  position: absolute;
+  width: 96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin: 2%;
+  overflow: hidden;
+  visibility: hidden;
+  outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+  transition: all 0.5s;
+  border-radius: 5%;
+}
+
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline: 1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+
+.hexLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+}
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  opacity: 0.8;
+}
+
+.hex h2 {
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+#h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  bottom: 40%;
+  font-size: 1.2em;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+audio {
+  z-index: 1;
+  bottom: 25%;
+  left: 0%;
+  padding: 0.5em;
+  width: 100%;
+}
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width: 1201px) { /* <- 5-4  hexagons per row */
+  #hexGrid {
+    padding-bottom: 5%;
+  }
+  .hex {
+    width: 25%; /* = 100 / 5 */
+  }
+  .hex:nth-child(6n+4) { /* first hexagon of even rows */
+    margin-left: 12.5%; /* = width of .hex / 2  to indent even rows */
+  }
+}
+@media (max-width: 1200px) and (min-width: 901px) { /* <- 4-3  hexagons per row */
+  #hexGrid {
+    padding-bottom: 5.5%;
+    font-size: 13px;
+  }
+  .hex {
+    width: 25%; /* = 100 / 4 */
+  }
+  .hex:nth-child(7n+5) { /* first hexagon of even rows */
+    margin-left: 12.5%; /* = width of .hex / 2  to indent even rows */
+  }
+}
+@media (max-width: 900px) and (min-width: 601px) { /* <- 3-2  hexagons per row */
+  #hexGrid {
+    padding-bottom: 7.4%;
+    font-size: 14px;
+  }
+  .hex {
+    width: 33.333%; /* = 100 / 3 */
+  }
+  .hex:nth-child(5n+4) { /* first hexagon of even rows */
+    margin-left: 16.666%; /* = width of .hex / 2  to indent even rows */
+  }
+}
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+  #hexGrid {
+    padding-bottom: 11.2%;
+    font-size: 12px;
+  }
+  .hex {
+    width: 50%; /* = 100 / 3 */
+  }
+  .hex:nth-child(3n+3) { /* first hexagon of even rows */
+    margin-left: 25%; /* = width of .hex / 2  to indent even rows */
+  }
+}
+@media (max-width: 400px) {
+  #hexGrid {
+    font-size: 8px;
+  }
+}
 body {
   font-family: sans-serif;
   margin: 0;
@@ -48,45 +251,4 @@ body {
 h1 {
   text-align: center;
   margin-top: 1rem;
-}
-
-.podcast-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.podcast {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  max-width: 300px;
-  overflow: hidden;
-}
-
-.podcast img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 200px;
-  width: 100%;
-}
-
-.podcast h2 {
-  font-size: 1.2rem;
-  margin: 0.5rem 1rem;
-}
-
-.podcast p {
-  margin: 0.5rem 1rem;
-}
-
-.podcast audio {
-  display: block;
-  margin: 1rem;
-  width: 90%;
 }/*# sourceMappingURL=main.css.map */
