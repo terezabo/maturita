@@ -1,3 +1,4 @@
+
 const podcastB = document.querySelector('.biologie');
 
 	fetch('biologie.xml')
@@ -14,6 +15,7 @@ const podcastB = document.querySelector('.biologie');
 	
 				const hex = document.createElement('li');
 				hex.classList.add('hex');
+				hex.classList.add('hidden');
 				hex.id = title;
 				hex.dataset.initialTitle = title;
 				hex.innerHTML = `
@@ -37,6 +39,8 @@ const podcastB = document.querySelector('.biologie');
 
 
 
+
+
 	const podcastCh = document.querySelector('.chemie');
 
 	fetch('chemie.xml')
@@ -53,6 +57,7 @@ const podcastB = document.querySelector('.biologie');
 	
 				const hex = document.createElement('li');
 				hex.classList.add('hex');
+				hex.classList.add('hidden');
 				hex.id = title;
 				hex.dataset.initialTitle = title;
 				hex.innerHTML = `
@@ -102,5 +107,6 @@ const podcastB = document.querySelector('.biologie');
 	
 		prevClickedDiv = div;
 	}
+
 
 

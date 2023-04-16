@@ -14,7 +14,7 @@ body {
 header {
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	height: 101vh;
 	background: linear-gradient(to right, rgba(250, 125, 7, 0.9), rgba(128, 85, 5, 0.6)),  url(title.jpg);
 	opacity: 0.8;
 	background-size: cover;
@@ -51,4 +51,24 @@ h2 {
 	-webkit-background-clip: text;
 
 }
+.link {
+	background-image: url("link.jpg");
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
 
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10vw;
+}
+.links img {
+	max-width: 400px;
+}
+
+.gl {
+	
+}

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Tereza Bohumská</title>
+    <link>http://tereza.lovestoblog.com/</link>
+    <description>Maturitní otázky - čtená verze</description>
+    <language>cs</language>
+    <atom:link href="http://tereza.lovestoblog.com/podcast.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Tereza Bohumská</itunes:author>
+    <itunes:summary>Maturitní otázky - čtená verze</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Tereza Bohumská</itunes:name>
+      <itunes:email>tereza.bohumska@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://tereza.lovestoblog.com/podcast.png"/>
+    <itunes:category text="Science">
+      <itunes:category text="Natural Sciences"/>
+    </itunes:category>    
+    <item>
+      <title>Biologie | 1. Obecná charakteristika živých soustav</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_1.m4a" length="11153639" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 2. Nebuněčné organismy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_2.m4a" length="12645403" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_2.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:12:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 3. Prokaryotická buňka</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Prokaryotická buňka</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_3.m4a" length="13020982" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://tereza.lovestoblog.com/podcasts/biologie/bio_3.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
+      <itunes:duration>00:13:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 4. Eukaryotická buňka</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Eukaryotická buňka.m4a</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_4.m4a" length="22846619" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_4.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
+      <itunes:duration>00:23:20</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 5. Buněčný cyklus</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_5.m4a" length="10524283" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_5.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:04:00 GMT</pubDate>
+      <itunes:duration>00:10:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 6. Rozmnožování rostlin</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_6.m4a" length="8399415" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_6.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:05:00 GMT</pubDate>
+      <itunes:duration>00:08:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 7. Rozmnožování živočichů 1/2</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_7a.m4a" length="9214776" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_7a.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:06:00 GMT</pubDate>
+      <itunes:duration>00:09:23</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 7. Rozmnožování živočichů 2/2</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_7b.m4a" length="2932534" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_7b.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:07:00 GMT</pubDate>
+      <itunes:duration>00:02:58</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 8. Výživa organismů</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_8.m4a" length="18789748" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_8.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:08:00 GMT</pubDate>
+      <itunes:duration>00:19:11</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 9. Parazitismus</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_9.m4a" length="15543889" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_9.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:09:00 GMT</pubDate>
+      <itunes:duration>00:15:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 10. Transport látek</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_10.m4a" length="16359225" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_10.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:10:00 GMT</pubDate>
+      <itunes:duration>00:16:42</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Biologie | 11. Příjem a zpracování potravy</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/biologie/bio_11.m4a" length="11153639" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/biologie/bio_11.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
+      <itunes:duration>00:11:22</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+        <item>
+      <title>Chemie | 1. Vodík</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Obecná charakteristika živých soustav</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_1.m4a" length="12333972" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_1.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
+      <itunes:duration>00:12:35</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 2. Kyslík</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_2.m4a" length="17721461" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_2.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
+      <itunes:duration>00:18:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 3. Kovy hlavních podskupin</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Prokaryotická buňka</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_3.m4a" length="22507186" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://tereza.lovestoblog.com/podcasts/chemie/ch_3.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
+      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 4. Halogeny 1/2</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Eukaryotická buňka.m4a</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_4a.m4a" length="6168185" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_4a.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
+      <itunes:duration>00:06:16</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 4. Halogeny 2/2</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Eukaryotická buňka.m4a</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_4b.m4a" length="5107812" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_4b.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
+      <itunes:duration>00:05:11</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 5. Chalkogeny</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_5.m4a" length="9076746" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_5.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:04:00 GMT</pubDate>
+      <itunes:duration>00:09:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 7. Uhlík jako základ makromolekulárních látek</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_7.m4a" length="10430942" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_7.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:06:00 GMT</pubDate>
+      <itunes:duration>00:10:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 8. Areny</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_8.m4a" length="13760424" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_8.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:08:00 GMT</pubDate>
+      <itunes:duration>00:14:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 10. Surovinová základna organické chemie</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_10.m4a" length="10545559" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_10.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:10:00 GMT</pubDate>
+      <itunes:duration>00:10:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 11. Dusík jako biogenní prvek</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_11.m4a" length="13719166" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_11.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
+      <itunes:duration>00:14:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 13. Kyseliny a zásady</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_13.m4a" length="9620528" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_13.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
+      <itunes:duration>00:09:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Chemie | 25. Základy analytické chemie</title>
+      <link>http://tereza.lovestoblog.com/podcast.php</link>
+      <description>Nebuněčné organismy</description>
+      <enclosure url="http://localhost/maturita/audio/chemie/ch_25.m4a" length="27680610" type="audio/mp4"/>
+      <itunes:image href="http://localhost/maturita/img/bio_1.jpg" />
+      <guid>http://localhost/0www/podcasts/chemie/ch_25.m4a</guid>
+      <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
+      <itunes:duration>00:28:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <itunes:explicit>no</itunes:explicit>
+  </channel>
+</rss>
