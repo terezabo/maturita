@@ -1,90 +1,54 @@
-/* Global styles */
-* {
+
+
+*
+{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Titan One', cursive;
 }
-
 body {
-	font-family: Arial, sans-serif;
+	min-height: 200vh;
+	background-color: rgb(209, 219, 230);
 }
-
-/* Header styles */
 header {
-	background-color: #1d4e89;
-	color: white;
-	height: 100px;
-	padding: 20px;
 	position: relative;
-}
-
-.header-content {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, rgba(250, 125, 7, 0.9), rgba(128, 85, 5, 0.6)),  url(title.jpg);
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	align-items: center;
-	justify-content: space-between;
-	height: 100%;
+	clip-path: circle(180vh at 70% -90vh);
 }
-
+.content {
+	text-align: center;
+}
 h1 {
-	font-size: 2.5em;
+	font-size: 17vh;
+	color: rgb(209, 219, 230);
 }
-
-nav ul {
-	display: flex;
-	list-style: none;
-}
-
-nav ul li {
-	margin-left: 20px;
-}
-
-nav ul li:first-child {
-	margin-left: 0;
-}
-
-nav ul li a {
-	color: white;
-	font-size: 1.2em;
-	text-decoration: none;
-}
-
-nav ul li a:hover {
-	text-decoration: underline;
-}
-
-/* Main styles */
-main {
-	padding: 20px;
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-section {
-	margin-bottom: 40px;
-}
-
 h2 {
-	font-size: 1.8em;
-	margin-bottom: 20px;
+	font-size: 15vh;
+	color: transparent;
+	text-align: center;
 }
+.bio {
+	background-image: url("biologie.jpg");
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
 
-ul {
-	list-style: none;
 }
+.ch {
+	background-image: url("chemie.jpg");
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
 
-h3 {
-	font-size: 1.4em;
-	margin-bottom: 10px;
 }
-
-a {
-	color: #1d4e89;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
-
 
