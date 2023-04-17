@@ -162,67 +162,42 @@ opacity: 0.8;
 
 
 
-/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
-@media (min-width:1201px) { /* <- 5-4  hexagons per row */
-  #hexGrid{
-    padding-bottom: 5%;
-    padding-left: 7%
 
-  }
-  .hex {
-    width: 25%; /* = 100 / 5 */
-  }
-  .hex:nth-child(6n+4){ /* first hexagon of even rows */
-    margin-left: 12.5%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
 
-@media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+/* @media (max-width: 1200px) and (min-width:901px) { 
   #hexGrid{
     padding-bottom: 5.5%;
     font-size: 13px;
   }
   .hex {
-    width: 25%; /* = 100 / 4 */
+    width: 25%;
   }
-  .hex:nth-child(7n+5){ /* first hexagon of even rows */
-    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+  .hex:nth-child(7n+5){ 
+    margin-left:12.5%;  
   }
-}
+} */
 
-@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+
+/* @media (max-width: 900px) and (min-width:601px) { 
   #hexGrid{
     padding-bottom: 7.4%;
     font-size: 14px;
   }
   .hex {
-    width: 33.333%; /* = 100 / 3 */
+    width: 33.333%; 
   }
-  .hex:nth-child(5n+4){ /* first hexagon of even rows */
-    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+  .hex:nth-child(5n+4){ 
+    margin-left:16.666%;  
   }
-}
+} */
 
-@media (max-width: 600px) { /* <- 2-1  hexagons per row */
-  #hexGrid{
-    padding-bottom: 11.2%;
-    font-size: 12px;
-  }
-  .hex {
-    width: 50%; /* = 100 / 3 */
-  }
-  .hex:nth-child(3n+3){ /* first hexagon of even rows */
-    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
 
-@media (max-width: 400px) {
+
+
+/* @media (max-width: 400px) {
     #hexGrid {
         font-size: 8px;
     }
-  
-
-  
  
 }
-
+ */
