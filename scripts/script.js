@@ -1,7 +1,7 @@
 
 const podcastB = document.querySelector('.biologie');
 
-	fetch('http://localhost/maturita/biologie.xml')
+	fetch('https://incomparable-tiramisu-4e92df.netlify.app/maturita/biologie.xml')
 		.then(response => response.text())
 		.then(str => new DOMParser().parseFromString(str, 'text/xml'))
 		.then(xmlDoc => {
