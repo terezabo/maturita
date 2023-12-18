@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Tereza Bohumská</title>
-    <link>https://maturita23.000webhostapp.com</link>
+    <link></link>
     <description>Maturitní otázky - čtená verze</description>
     <language>cs</language>
-    <atom:link href="https://maturita23.000webhostapp.com/podcast.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Tereza Bohumská</itunes:author>
     <itunes:summary>Maturitní otázky - čtená verze</itunes:summary>
     <itunes:owner>
       <itunes:name>Tereza Bohumská</itunes:name>
       <itunes:email>tereza.bohumska@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://maturita23.000webhostapp.com/podcast.png"/>
+    <itunes:image href="podcast.png"/>
     <itunes:category text="Science">
       <itunes:category text="Natural Sciences"/>
     </itunes:category>    
     <item>
       <title>Chemie | 1. Vodík</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Obecná charakteristika živých soustav</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_1.m4a" length="12333972" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_1.m4a</guid>
+      <enclosure url="audio/chemie/ch_1.m4a" length="12333972" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_1.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:00:00 GMT</pubDate>
       <itunes:duration>00:12:35</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 2. Kyslík</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_2.m4a" length="17721461" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_2.m4a</guid>
+      <enclosure url="audio/chemie/ch_2.m4a" length="17721461" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_2.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:01:00 GMT</pubDate>
       <itunes:duration>00:18:08</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 3. Kovy hlavních podskupin</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Prokaryotická buňka</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_3.m4a" length="22507186" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audiopodcasts/chemie/ch_3.m4a</guid>
+      <enclosure url="audio/chemie/ch_3.m4a" length="22507186" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audiopodcasts/chemie/ch_3.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:02:00 GMT</pubDate>
       <itunes:duration>00:23:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 4. Halogeny 1/2</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Eukaryotická buňka.m4a</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_4a.m4a" length="6168185" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_4a.m4a</guid>
+      <enclosure url="audio/chemie/ch_4a.m4a" length="6168185" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_4a.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
       <itunes:duration>00:06:16</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 4. Halogeny 2/2</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Eukaryotická buňka.m4a</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_4b.m4a" length="5107812" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_4b.m4a</guid>
+      <enclosure url="audio/chemie/ch_4b.m4a" length="5107812" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_4b.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:03:00 GMT</pubDate>
       <itunes:duration>00:05:11</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 5. Chalkogeny</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_5.m4a" length="9076746" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_5.m4a</guid>
+      <enclosure url="audio/chemie/ch_5.m4a" length="9076746" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_5.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:04:00 GMT</pubDate>
       <itunes:duration>00:09:15</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
@@ -85,66 +85,66 @@
 
     <item>
       <title>Chemie | 7. Uhlík jako základ makromolekulárních látek</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_7.m4a" length="10430942" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_7.m4a</guid>
+      <enclosure url="audio/chemie/ch_7.m4a" length="10430942" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_7.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:06:00 GMT</pubDate>
       <itunes:duration>00:10:38</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 8. Areny</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_8.m4a" length="13760424" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_8.m4a</guid>
+      <enclosure url="audio/chemie/ch_8.m4a" length="13760424" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_8.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:08:00 GMT</pubDate>
       <itunes:duration>00:14:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 10. Surovinová základna organické chemie</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_10.m4a" length="10545559" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_10.m4a</guid>
+      <enclosure url="audio/chemie/ch_10.m4a" length="10545559" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_10.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:10:00 GMT</pubDate>
       <itunes:duration>00:10:45</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 11. Dusík jako biogenní prvek</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_11.m4a" length="13719166" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_11.m4a</guid>
+      <enclosure url="audio/chemie/ch_11.m4a" length="13719166" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_11.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
       <itunes:duration>00:14:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 13. Kyseliny a zásady</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_13.m4a" length="9620528" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_13.m4a</guid>
+      <enclosure url="audio/chemie/ch_13.m4a" length="9620528" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_13.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
       <itunes:duration>00:09:45</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
     <item>
       <title>Chemie | 25. Základy analytické chemie</title>
-      <link>https://maturita23.000webhostapp.com/index.html</link>
+      <link>index.html</link>
       <description>Nebuněčné organismy</description>
-      <enclosure url="https://maturita23.000webhostapp.com/audio/chemie/ch_25.m4a" length="27680610" type="audio/mp4"/>
-      <itunes:image href="https://maturita23.000webhostapp.com/img/bio_1.jpg" />
-      <guid>https://maturita23.000webhostapp.com/audio/chemie/ch_25.m4a</guid>
+      <enclosure url="audio/chemie/ch_25.m4a" length="27680610" type="audio/mp4"/>
+      <itunes:image href="img/bio_1.jpg" />
+      <guid>audio/chemie/ch_25.m4a</guid>
       <pubDate>Sat, 15 Apr 2023 10:11:00 GMT</pubDate>
       <itunes:duration>00:28:17</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
