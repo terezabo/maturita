@@ -1,7 +1,7 @@
 
 const podcastB = document.querySelector('.biologie');
 
-	fetch('https://incomparable-tiramisu-4e92df.netlify.app/maturita/biologie.xml')
+	fetch('https://incomparable-tiramisu-4e92df.netlify.app/biologie.xml')
 		.then(response => response.text())
 		.then(str => new DOMParser().parseFromString(str, 'text/xml'))
 		.then(xmlDoc => {
@@ -43,7 +43,7 @@ const podcastB = document.querySelector('.biologie');
 
 	const podcastCh = document.querySelector('.chemie');
 
-	fetch('chemie.xml')
+	fetch('https://incomparable-tiramisu-4e92df.netlify.app/chemie.xml')
 		.then(response => response.text())
 		.then(str => new DOMParser().parseFromString(str, 'text/xml'))
 		.then(xmlDoc => {
