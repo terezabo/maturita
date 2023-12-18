@@ -1,7 +1,7 @@
 
 const podcastB = document.querySelector('.biologie');
 
-	fetch('biologie.xml')
+	fetch('http://localhost/maturita/biologie.xml')
 		.then(response => response.text())
 		.then(str => new DOMParser().parseFromString(str, 'text/xml'))
 		.then(xmlDoc => {
